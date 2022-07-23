@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!--============================Link============================-->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+
+</head>
+
+<body>
+    <div class="homepage">
+        <!--============================Nav Bar============================-->
+        <header id="navbar">
+            <div class="navbar-container">
+                <!--============================Heading============================-->
+                <div class="navbar-container__heading">
+                    <img src="https://i.pinimg.com/originals/8c/64/69/8c64695ea89ddb51f9b53fa9dfe315e3.png" alt="book store logo">
+
+                    <div class="navbar-container__heading-searchbar">
+                        <div class="navbar-container__heading-searchbar-content">
+                            <input type="text">
+                            <img src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="search icon">
+                        </div>
+                    </div>
+                </div>
+
+                <!--============================Link============================-->
+                <div class="navbar-container__links">
+                    <ul class="navbar-container__links-container">
+                        <li class="navbar-container__links-container-item">
+                            <a href="home.html">HOME</a>
+                        </li>
+                        <li class="navbar-container__links-container-item">
+                            <a href="trending.html">TRENDING</a>
+                        </li>
+                        <li class="navbar-container__links-container-item">
+                            <a href="bestsellings.html">BESTSELLINGS</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--============================Content============================-->
+        <div id="contact">
+            <div class="contact-content">
+                <fieldset class="contact-container">
+                    <legend class="contact-heading">
+                        <h1>Contact Us</h1>
+                    </legend>
+
+                    <form action="">
+                        <div class="contact-content__purpose">
+                            <label for="purpose">Contact purpose</label>
+                            <select name="purpose" id="purpose" required>
+                                <option value="sell-book">I want to sell books</option>
+                                <option value="buy-book">I want to buy books</option>
+                            </select>
+                        </div>
+    
+                        <div class="contact-content__name">
+                            <label for="name">Your name</label>
+                            <input type="text" name="name" id="name" required/>
+                        </div>
+    
+                        <div class="contact-content__email">
+                            <label for="mail">Your e-mail</label>
+                            <input type="text" name="mail" id="mail" required/>
+                        </div>
+    
+                        <div class="contact-content__phone">
+                            <label for="phone">Your phone</label>
+                            <input type="number" name="phone" id="phone" required/>
+                        </div>
+    
+                        <div class="contact-content__how">
+                            <label for="how">How can we contact you</label>
+                            <div>
+                                <div>
+                                    <input type="checkbox" id="by-email" name="by-email" value="by-email">
+                                    <label for="by-email"> By e-mail</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="by-phone" name="by-phone" value="by-phone">
+                                    <label for="by-phone"> By phone</label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="contact-content__receive">
+                            <label for="receive">Do you want to receive our weekly newsletter</label>
+                            <div>
+                                <div>
+                                    <input type="radio" id="yes" name="yes-no" value="yes" checked>
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="no" name="yes-no" value="no">
+                                    <label for="no">No</label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="contact-content__note">
+                            <label for="note"></label>
+                            <textarea name="" id="" cols="50" rows="10"></textarea>
+                        </div>
+    
+                        <div class="contact-content__button">
+                            <input type="submit" value="Submit">
+                            <input type="button" value="Reset">
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <!--============================Footer============================-->
+        <footer id="footer">
+            <div class="footer-container">
+                <!--============================Contact============================-->
+                <div class="footer-container__contact">
+                    <div class="footer-container__contact-link">
+                        <a href="#">Contact Us</a>
+                    </div>
+
+                    <div class="footer-container__contact-link">
+                        <p>Follow Us</p>
+                        <ul>
+                            <li>
+                                <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="facebook-icon">
+                            </li>
+                            <li>
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="twitter-icon">
+                            </li>
+                            <li>
+                                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="insta-icon">
+                            </li>
+                            <li>
+                                <img src="https://banner2.cleanpng.com/20190213/qw/kisspng-computer-icons-discord-clip-art-san-andreas-multip-5c64f3a8787ce0.9897313915501198484935.jpg" alt="discord-icon">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-container__contact-link">
+                        <p>Get the App</p>
+                        <ul>
+                            <li>
+                                <img src="https://cdn.myanimelist.net/images/appli/badge_iOS.png" alt="iOS">
+                            </li>
+                            <li>
+                                <img src="https://cdn.myanimelist.net/images/appli/badge_googleplay.png" alt="googleplay">
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                <!--============================Copyright============================-->
+                <div class="footer-container__copyright">
+                    <p>© 1996-2022 Endless-Book, Inc. All rights reserved. </p>
+                    <ul class="footer-container__copyright-links">
+                        <li class="footer-container__copyright-item">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="footer-container__copyright-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer-container__copyright-item">
+                            <a href="#">Terms</a>
+                        </li>
+                        <li class="footer-container__copyright-item">
+                            <a href="#">Copyright</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
